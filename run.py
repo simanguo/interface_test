@@ -15,6 +15,7 @@ import time
 
 
 if __name__ == "__main__":
+    # tetssetsetsetststte
     # suite = ranzhi_suite.get_suite()
     suite = weather_suite.get_suite()
     current_time = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
