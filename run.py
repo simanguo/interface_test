@@ -19,6 +19,7 @@ if __name__ == "__main__":
     suite = weather_suite.get_suite()
     current_time = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
     report_name = "test_report_{}.html".format(current_time)
+	# test
     with open('report/{}'.format(report_name), 'wb') as file:
         runner = HTMLTestRunner(stream=file,
                                 title="ranzhi test report",
